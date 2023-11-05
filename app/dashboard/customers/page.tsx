@@ -18,7 +18,6 @@ export default async function Page({
   return (
     <main>
       <Suspense fallback={<InvoicesTableSkeleton />}>
-        {/* @ts-ignore */}
         <Table customers={customers} query={query} />
       </Suspense>
     </main>

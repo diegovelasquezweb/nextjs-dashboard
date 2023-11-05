@@ -7,6 +7,7 @@ export default async function CustomersTable({
   customers,
 }: {
   customers: FormattedCustomersTable[];
+  query: string;
 }) {
   return (
     <div className="w-full">
