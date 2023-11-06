@@ -2,9 +2,10 @@
 const nextConfig = {
   swcMinify: false,
   images: {
+    unoptimized: true,
     domains: [
       'https://nextjs-dashboard-navy-xi.vercel.app/',
-    ]
+    ],
   },
   async redirects() {
     return [
