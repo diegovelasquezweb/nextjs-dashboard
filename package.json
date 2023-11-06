@@ -2,10 +2,11 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next lint & NODE_OPTIONS='--inspect' next dev",
     "start": "next start",
     "seed": "node -r dotenv/config ./scripts/seed.js",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prod": "next build && next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
