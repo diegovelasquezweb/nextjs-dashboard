@@ -3,10 +3,6 @@ const nextConfig = {
   swcMinify: false,
   images: {
     unoptimized: true,
-    domains: [
-      'https://nextjs-dashboard-diego.vercel.app/',
-      'nextjs-dashboard-diego.vercel.app/'
-    ],
   },
   async redirects() {
     return [
