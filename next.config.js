@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
     domains: [
-      'https://nextjs-dashboard-navy-xi.vercel.app/',
+      'https://nextjs-dashboard-diego.vercel.app/',
+      'nextjs-dashboard-diego.vercel.app/'
     ],
   },
   async redirects() {
