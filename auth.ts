@@ -39,4 +39,5 @@ export const { auth, signIn, signOut } = NextAuth({
       },
     }),
   ],
+  secret: 'IamVeryHandsome' as string,
 });
